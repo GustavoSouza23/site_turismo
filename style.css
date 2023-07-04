@@ -1,0 +1,90 @@
+/*
+body {
+    font-weight: 400;
+    /* define o negrito das letras (fonte) 400 normal, 700 negrito
+    font-family: lato, Helvetica, sans-serif;
+    /* familia das letras (fonte), sans-serif é uma fonte generica 
+    font-size: 15px;
+    tamnho da letra (fonte)
+    line-height: 2.2em;
+    /espaçamneto entre as linha tamanho relativo 2.2 x 15 px = 33px (é melhor que absoluto)
+    color: #808080;
+    / define a cor da letra (fonte) hexadecimal
+    margin: 0;
+    / cria espaçamentos nos cantos do elementos, para forado elemento
+}
+
+header {
+    background-color: #f4511e;
+     criar cor de fundo no elemento*
+}
+
+section,
+footer {
+    margin: 40px;
+}
+*/
+
+h1 {
+    font-size: 63px;
+    /* define o tamanho da letra*/
+    color: white;
+    /* Define a cor da fonte, (cor da fonte em hexadecimal) */
+    padding: 15px;
+    /* cria espaçamento para dentro dos elementos*/
+    text-align: center;
+    /* Alinhamento de texto */
+}
+
+h2 {
+    font-size: 54px;
+   /* text-transform: uppercase;
+    transforma o texto em letras em maiusculas*/
+    color: #303030;
+    /* Define a cor da fonte, (cor da fonte em hexadecimal) */
+    font-weight: 600;
+    /* define o negrito das letras (fonte) 400 normal, 700 negrito*/
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: #ffc107;
+    text-shadow: 2px 2px 2px black;
+}
+/*
+
+table {
+    width: 100%;
+     Atribui uma larguara para um elemento
+}
+
+table dt {
+    color: #303030;
+    padding: 5px;
+}
+
+table tr:nth-child(even) {
+    /pseudoclasse (nth-child) seleciona uma linha especifica, (even - par) 
+    backgroud-color: #e9e9e9;
+}
+
+table tr:nth-child(odd) {
+    /* pseudoclasse (nth-child) seleciona uma linha especifica, (odd - impar) 
+    background-color: #bdbdbd;
+}
+
+table thead th {
+    background-color: #f4511e;
+    color: #e9e9e9
+}
+
+#pacotes .figuras figure{  para identificar uma id no css usa-se hasteg(#), e uma class usa-se o  ponto(.) 
+    display: inline-block; colocar os elementos em linha
+}
+
+#pacotes .figuras, #pacotes .videos{
+    text-align: center;
+}
+O sistema de grade do Bootstrap usa uma série de contêineres, linhas (classe .row) e colunas (classe .col) totalmente flexíveis e responsivas para alinhamento de conteúdo
+
+*/
